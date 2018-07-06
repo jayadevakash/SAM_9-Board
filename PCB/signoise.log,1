@@ -1,0 +1,7 @@
+INFO: Loaded existing device file 'D:\SAM9_Board\PCB\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing interconnect file 'D:\SAM9_Board\PCB\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_1
+INFO: Executing command: bem2d 0 "C:/Users/Akash/AppData/Local/Temp/#Taaaaaw06940.in" 0.00127

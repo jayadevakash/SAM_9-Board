@@ -1,0 +1,77 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : SAM9_BOARDV2.0_2303.brd                       )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Mar 24 11:19:25 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'D:/SAM9_Board/Symbols';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'D:/SAM9_Board/PCB/SAM9_BOARDV2.0_2303.brd';
+NEW_BOARD_NAME 'D:/SAM9_Board/PCB/SAM9_BOARDV2.0_2303.brd';
+
+CmdLine: netrev -$ -i D:/SAM9_Board/Symbols -u -t -y 1 D:/SAM9_Board/PCB/#Taaaaaf12300.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read D:/SAM9_Board/Symbols/pstchip.dat 
+   Finished reading D:/SAM9_Board/Symbols/pstchip.dat (00:00:00.04)
+Starting to read D:/SAM9_Board/Symbols/pstxprt.dat 
+   Finished reading D:/SAM9_Board/Symbols/pstxprt.dat (00:00:00.00)
+Starting to read D:/SAM9_Board/Symbols/pstxnet.dat 
+   Finished reading D:/SAM9_Board/Symbols/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  D:/SAM9_Board/Symbols/ 
+
+PADPATH =  D:/SAM9_Board/Symbols/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 24 11:19:25 2018
+   DESIGN NAME : 'SAM9N12'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:48
+elapsed time  0:00:00
+

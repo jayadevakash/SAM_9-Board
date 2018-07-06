@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : NG_CD_6339191.dra                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jan 26 21:34:23 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/Akash/Documents/SAM9_Board/Symbols
+    Name      = ng_cd_6339191.psm
+    User      = Akash
+    Machine   = DESKTOP-MS1CKCP
+
+
+Create symbol started.
+ 
+ WARNING(SPMHA1-301): Create symbol DRC errors exist. 
+
+Create symbol completed.
+

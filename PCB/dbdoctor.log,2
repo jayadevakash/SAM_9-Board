@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : SAM9_BOARDV2.0_2_3003_1150.brd                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Mar 30 11:54:21 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 7   after update: 7
+
+Regenerating DRC
+  Original DRC errors:   172
+  Updated DRC errors:    170
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.

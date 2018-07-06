@@ -1,0 +1,22 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Wed Mar 14 12:41:55 2018
+\t (00:00:00)         Host=DESKTOP-VO8O373 User=Akash Pid=11036 CPUs=4
+\t (00:00:00) 
+\i (00:00:03) setwindow form.padedit
+\i (00:00:03) pse_open 
+\i (00:00:30) fillin "rec_25x20.pad"
+\i (00:00:32) FORM padedit layers  
+\i (00:00:46) FORM padedit width 20 
+\i (00:00:48) FORM padedit height 25 
+\i (00:00:51) FORM padedit parameters  
+\i (00:00:51) FORM padedit layers  
+\i (00:00:53) FORM padedit grid row soldermask_top 
+\i (00:00:57) FORM padedit height 30 
+\i (00:01:00) FORM padedit width 25 
+\i (00:01:02) FORM padedit grid row pastemask_top 
+\i (00:01:11) FORM padedit width 20 
+\i (00:01:14) FORM padedit height 25 
+\i (00:01:17) pse_save 
+\i (00:01:19) fillin yes 
+\i (11:46:01) pse_exit
+\t (11:46:02)     Journal end - Thu Mar 15 00:27:57 2018

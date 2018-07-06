@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : SAM9_BOARDV2.0_2_3003_1150.brd                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Mar 30 11:54:18 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (1155.0 1365.0) on net GND.
+WARNING Deleted redundant via at (540.0 1460.0) on net GND.
+WARNING Deleted redundant via at (540.0 1460.0) on net GND.
+WARNING Deleted redundant via at (1444.0 2089.0) on net GND.
+WARNING Deleted redundant via at (1444.0 2089.0) on net GND.
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+6 warnings, 0 errors detected, 0 errors could be fixed.

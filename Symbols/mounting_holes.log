@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Mounting_Holes.dra                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Feb 08 12:01:44 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/SAM9_Board/PCB
+    Name      = mounting_holes.psm
+    User      = Akash
+    Machine   = DESKTOP-VO8O373
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

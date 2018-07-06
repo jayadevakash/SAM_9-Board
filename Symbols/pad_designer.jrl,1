@@ -1,0 +1,42 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Wed Mar 14 10:55:35 2018
+\t (00:00:00)         Host=DESKTOP-VO8O373 User=Akash Pid=9688 CPUs=4
+\t (00:00:00) 
+\i (00:00:10) setwindow form.padedit
+\i (00:00:10) FORM padedit decimal_places 2 
+\i (00:00:10) FORM padedit layers  
+\i (00:00:11) FORM padedit parameters  
+\i (00:00:29) FORM padedit layers  
+\i (00:00:31) FORM padedit grid row begin_layer 
+\i (00:00:47) FORM padedit geometry Rectangle 
+\i (00:00:58) FORM padedit width  
+\w (00:00:58) User units conversion failed.
+\i (01:06:12) FORM padedit width 25 
+\i (01:06:20) FORM padedit height 25 
+\i (01:06:36) FORM padedit height 20.00 
+\i (01:06:38) FORM padedit crossbox YES 
+\i (01:06:46) FORM padedit width 20 
+\i (01:06:48) FORM padedit height 25 
+\i (01:07:15) FORM padedit grid row soldermask_top 
+\i (01:07:18) FORM padedit geometry Rectangle 
+\i (01:07:25) FORM padedit width 20 
+\i (01:07:33) FORM padedit height 25 
+\i (01:08:03) FORM padedit width 25 
+\i (01:08:05) FORM padedit height 20 
+\i (01:08:14) FORM padedit grid row begin_layer 
+\i (01:08:17) FORM padedit width 25 
+\i (01:08:19) FORM padedit height 20 
+\i (01:08:30) FORM padedit single YES 
+\i (01:08:33) FORM padedit grid row pastemask_top 
+\i (01:08:38) FORM padedit geometry Rectangle 
+\i (01:08:45) FORM padedit width 25 
+\i (01:08:46) FORM padedit height 20 
+\i (01:08:56) FORM padedit grid row soldermask_top 
+\i (01:09:03) FORM padedit width 30 
+\i (01:09:06) FORM padedit height 25 
+\i (01:09:08) FORM padedit grid row pastemask_top 
+\i (01:36:36) pse_save 
+\i (01:36:44) pse_save_as 
+\i (01:37:05) fillin "rec_25x20.pad"
+\i (01:37:09) pse_exit
+\t (01:37:09)     Journal end - Wed Mar 14 12:32:44 2018

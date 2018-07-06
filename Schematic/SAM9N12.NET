@@ -1,0 +1,1448 @@
+.HEA
+.APP "Cadstar RINF Output - Version 2.3"
+.UNI INCH 1000.0 in
+.TYP FULL 
+.JOB "SAM9N12"
+
+.ADD_COM C1 "capnp0603"
+.ADD_COM C10 "capnp0603"
+.ADD_COM C11 "capnp0603"
+.ADD_COM C12 "capnp0603"
+.ADD_COM C13 "capnp0603"
+.ADD_COM C14 "capnp0603"
+.ADD_COM C15 "capnp0603"
+.ADD_COM C16 "capnp0603"
+.ADD_COM C17 "capnp0603"
+.ADD_COM C18 "capnp0603"
+.ADD_COM C19 "capnp0603"
+.ADD_COM C2 "capnp0603"
+.ADD_COM C20 "capnp0603"
+.ADD_COM C21 "capnp0603"
+.ADD_COM C22 "capnp0603"
+.ADD_COM C23 "capnp0603"
+.ADD_COM C24 "capnp0603"
+.ADD_COM C25 "capnp0603"
+.ADD_COM C26 "capnp0603"
+.ADD_COM C27 "capnp0603"
+.ADD_COM C28 "capnp0603"
+.ADD_COM C29 "capnp0603"
+.ADD_COM C3 "capnp0603"
+.ADD_COM C30 "capnp0603"
+.ADD_COM C31 "capnp0603"
+.ADD_COM C32 "capnp0603"
+.ADD_COM C33 "capnp0603"
+.ADD_COM C34 "capnp0603"
+.ADD_COM C35 "capnp0603"
+.ADD_COM C36 "capnp0603"
+.ADD_COM C37 "capnp0603"
+.ADD_COM C38 "capnp0603"
+.ADD_COM C39 "capnp0603"
+.ADD_COM C4 "capnp0603"
+.ADD_COM C40 "capnp0603"
+.ADD_COM C41 "capnp0603"
+.ADD_COM C42 "capnp0603"
+.ADD_COM C43 "capnp0603"
+.ADD_COM C44 "capnp0603"
+.ADD_COM C45 "capnp0603"
+.ADD_COM C46 "capnp0603"
+.ADD_COM C47 "capnp0603"
+.ADD_COM C48 "capnp0603"
+.ADD_COM C49 "capnp0603"
+.ADD_COM C5 "capnp0603"
+.ADD_COM C50 "capnp0603"
+.ADD_COM C51 "capnp0603"
+.ADD_COM C52 "capnp0603"
+.ADD_COM C53 "capnp0603"
+.ADD_COM C54 "capnp0603"
+.ADD_COM C55 "capnp0603"
+.ADD_COM C56 "capnp0603"
+.ADD_COM C57 "capnp0603"
+.ADD_COM C58 "capnp0603"
+.ADD_COM C59 "capnp0603"
+.ADD_COM C6 "capnp0603"
+.ADD_COM C60 "capnp0603"
+.ADD_COM C61 "capnp0603"
+.ADD_COM C62 "capnp0603"
+.ADD_COM C63 "capnp0603"
+.ADD_COM C64 "capnp0603"
+.ADD_COM C65 "capnp0603"
+.ADD_COM C66 "capnp0603"
+.ADD_COM C67 "capnp0603"
+.ADD_COM C68 "capnp0603"
+.ADD_COM C69 "capnp0603"
+.ADD_COM C7 "capnp0603"
+.ADD_COM C70 "capnp0603"
+.ADD_COM C71 "capnp0603"
+.ADD_COM C72 "capnp0603"
+.ADD_COM C73 "capnp0603"
+.ADD_COM C74 "cap0603"
+.ADD_COM C75 "cap0603"
+.ADD_COM C76 "cap0603"
+.ADD_COM C77 "cap0603"
+.ADD_COM C78 "cap0603"
+.ADD_COM C79 "cap0603"
+.ADD_COM C8 "capnp0603"
+.ADD_COM C80 "cap0603"
+.ADD_COM C81 "cap0603"
+.ADD_COM C82 "capnp0603"
+.ADD_COM C83 "capnp0603"
+.ADD_COM C84 "cap0603"
+.ADD_COM C85 "capnp0603"
+.ADD_COM C86 "capnp0603"
+.ADD_COM C87 "capnp0603"
+.ADD_COM C88 "capnp0603"
+.ADD_COM C89 "capnp0603"
+.ADD_COM C9 "capnp0603"
+.ADD_COM C90 "capnp0603"
+.ADD_COM C91 "capnp0603"
+.ADD_COM D1 "DIO0603"
+.ADD_COM D2 "DIO0603"
+.ADD_COM D3 "DIO0603"
+.ADD_COM D4 "DIO0603"
+.ADD_COM E1 "TESTPOINT"
+.ADD_COM F1 "FUSE1206"
+.ADD_COM F2 "FUSE1206"
+.ADD_COM J1 "HEADERSINGLE"
+.ADD_COM J10 "HEADERSINGLE"
+.ADD_COM J11 "HEADERSINGLE"
+.ADD_COM J12 "HEADERSINGLE"
+.ADD_COM J13 "HEADERSINGLE"
+.ADD_COM J14 "HEADERSINGLE"
+.ADD_COM J15 "HEADERSINGLE"
+.ADD_COM J16 "HEADERSINGLE"
+.ADD_COM J17 "HEADERSINGLE"
+.ADD_COM J18 "HEADERSINGLE"
+.ADD_COM J19 "HEADERSINGLE"
+.ADD_COM J2 "HEADERSINGLE"
+.ADD_COM J20 "HEADERSINGLE"
+.ADD_COM J21 "HEADERSINGLE"
+.ADD_COM J22 "HEADERSINGLE"
+.ADD_COM J23 "PJ-037"
+.ADD_COM J24 "HEADERSINGLE"
+.ADD_COM J25 "HEADERSINGLE"
+.ADD_COM J26 "440479"
+.ADD_COM J27 "440479"
+.ADD_COM J28 "testing101"
+.ADD_COM J29 "440479"
+.ADD_COM J3 "HEADERSINGLE"
+.ADD_COM J30 "HEADERSINGLE"
+.ADD_COM J4 "HEADERSINGLE"
+.ADD_COM J5 "HEADERSINGLE"
+.ADD_COM J6 "HEADERSINGLE"
+.ADD_COM J7 "HEADERSINGLE"
+.ADD_COM J8 "HEADERSINGLE"
+.ADD_COM J9 "HEADERSINGLE"
+.ADD_COM L1 "IND0603"
+.ADD_COM L2 "IND0603"
+.ADD_COM L3 "IND0603"
+.ADD_COM L4 "IND0603"
+.ADD_COM L5 "IND0603"
+.ADD_COM R1 "RES0603"
+.ADD_COM R10 "RES0603"
+.ADD_COM R11 "RES0603"
+.ADD_COM R12 "RES0603"
+.ADD_COM R13 "RES0603"
+.ADD_COM R14 "RES0603"
+.ADD_COM R15 "RES0603"
+.ADD_COM R16 "RES0603"
+.ADD_COM R17 "RES0603"
+.ADD_COM R18 "RES0603"
+.ADD_COM R19 "RES0603"
+.ADD_COM R2 "RES0603"
+.ADD_COM R20 "RES0603"
+.ADD_COM R21 "RES0603"
+.ADD_COM R22 "RES0603"
+.ADD_COM R23 "RES0603"
+.ADD_COM R24 "RES0603"
+.ADD_COM R25 "RES0603"
+.ADD_COM R26 "RES0603"
+.ADD_COM R27 "RES0603"
+.ADD_COM R28 "RES0603"
+.ADD_COM R29 "RES0603"
+.ADD_COM R3 "RES0603"
+.ADD_COM R30 "RES0603"
+.ADD_COM R31 "RES0603"
+.ADD_COM R32 "RES0603"
+.ADD_COM R33 "RES0603"
+.ADD_COM R34 "RES0603"
+.ADD_COM R35 "RES0603"
+.ADD_COM R36 "RES0603"
+.ADD_COM R37 "RES0603"
+.ADD_COM R38 "RES0603"
+.ADD_COM R39 "RES0603"
+.ADD_COM R4 "RES0603"
+.ADD_COM R40 "RES0603"
+.ADD_COM R41 "RES0603"
+.ADD_COM R42 "RES0603"
+.ADD_COM R43 "RES0603"
+.ADD_COM R44 "RES0603"
+.ADD_COM R45 "RES0603"
+.ADD_COM R46 "RES0603"
+.ADD_COM R47 "RES0603"
+.ADD_COM R48 "RES0603"
+.ADD_COM R49 "RES0603"
+.ADD_COM R5 "RES0603"
+.ADD_COM R50 "RES0603"
+.ADD_COM R51 "RES0603"
+.ADD_COM R52 "RES0603"
+.ADD_COM R53 "RES0603"
+.ADD_COM R54 "RES0603"
+.ADD_COM R55 "RES0603"
+.ADD_COM R56 "RES0603"
+.ADD_COM R57 "RES0603"
+.ADD_COM R58 "RES0603"
+.ADD_COM R59 "RES0603"
+.ADD_COM R6 "RES0603"
+.ADD_COM R60 "RES0603"
+.ADD_COM R61 "RES0603"
+.ADD_COM R62 "RES0603"
+.ADD_COM R63 "RES0603"
+.ADD_COM R64 "RES0603"
+.ADD_COM R65 "RES0603"
+.ADD_COM R66 "RES0603"
+.ADD_COM R67 "RES0603"
+.ADD_COM R68 "RES0603"
+.ADD_COM R69 "RES0603"
+.ADD_COM R7 "RES0603"
+.ADD_COM R70 "RES0603"
+.ADD_COM R71 "RES0603"
+.ADD_COM R72 "RES0603"
+.ADD_COM R73 "RES0603"
+.ADD_COM R74 "RES0603"
+.ADD_COM R75 "RES0603"
+.ADD_COM R76 "RES0603"
+.ADD_COM R77 "RES0603"
+.ADD_COM R78 "RES0603"
+.ADD_COM R79 "RES0603"
+.ADD_COM R8 "RES0603"
+.ADD_COM R80 "RES0603"
+.ADD_COM R81 "RES0603"
+.ADD_COM R82 "RES0603"
+.ADD_COM R83 "RES0603"
+.ADD_COM R84 "RES0603"
+.ADD_COM R85 "RES0603"
+.ADD_COM R86 "RES0603"
+.ADD_COM R9 "RES0603"
+.ADD_COM TP1 "TESTPOINT"
+.ADD_COM TP10 "TESTPOINT"
+.ADD_COM TP11 "TESTPOINT"
+.ADD_COM TP12 "TESTPOINT"
+.ADD_COM TP13 "TESTPOINT"
+.ADD_COM TP2 "TESTPOINT"
+.ADD_COM TP3 "TESTPOINT"
+.ADD_COM TP4 "TESTPOINT"
+.ADD_COM TP5 "TESTPOINT"
+.ADD_COM TP6 "TESTPOINT"
+.ADD_COM TP7 "TESTPOINT"
+.ADD_COM TP8 "TESTPOINT"
+.ADD_COM TP9 "TESTPOINT"
+.ADD_COM U1 "MT46H128M16LT"
+.ADD_COM U10 "LT3971"
+.ADD_COM U11 "LT3971"
+.ADD_COM U12 "MAX3232"
+.ADD_COM U13 "TDM2771"
+.ADD_COM U14 "FT232BQ"
+.ADD_COM U2 "SAM9N12"
+.ADD_COM U3 "Micrel_KSZ885"
+.ADD_COM U4 "H1102NL"
+.ADD_COM U5 "24AA01"
+.ADD_COM U6 "ESP8266"
+.ADD_COM U7 "MT29F16G08FAA"
+.ADD_COM U8 "ADP1715"
+.ADD_COM U9 "TPS3307"
+.ADD_COM Y1 "sg210stf"
+.ADD_COM Y2 "sg210stf"
+.ADD_COM Y3 "sg210stf"
+.ADD_COM Y4 "sg210stf"
+
+
+.ADD_TER  U11 2 "1V8PRBST"
+.TER      C72 1 
+
+.ADD_TER  U11 6 "1V8PRFD"
+.TER      R26 1 
+          R28 1 
+          C61 1 
+
+.ADD_TER  U11 8 "1V8PRRT"
+.TER      R27 1 
+
+.ADD_TER  U11 3 "1V8PRSW"
+.TER      C72 2 
+          D4 2 
+          L2 2 
+
+.ADD_TER  U8 4 "1VPRADJ"
+.TER      R23 2 
+          R24 1 
+
+.ADD_TER  U10 8 "3V3PRRT"
+.TER      R25 1 
+
+.ADD_TER  U10 3 "3V3PRSW"
+.TER      C46 2 
+          L1 1 
+          D3 2 
+
+.ADD_TER  U10 2 "3V3_BST"
+.TER      C46 1 
+
+.ADD_TER  U13 5 "ALS_LED"
+.TER      U13 6 
+
+.ADD_TER  U13 1 "ALS_VDD"
+.TER      C78 1 
+          R83 2 
+
+.ADD_TER  U6 2 "ANTENNA"
+.TER      E1 1 
+
+.ADD_TER  U12 8 "DATA IN"
+.TER      J24 1 
+
+.ADD_TER  U12 7 "DATA OUT"
+.TER      J25 1 
+
+.ADD_TER  U14 30 "DATA_IN"
+
+.ADD_TER  U14 2 "DATA_OUT"
+
+.ADD_TER  J8 36 "DBG_RXD"
+.TER      J10 1 
+
+.ADD_TER  J8 38 "DBG_TXD"
+.TER      J6 1 
+
+.ADD_TER  J8 27 "DTR"
+.TER      R15 2 
+
+.ADD_TER  U3 10 "EE_CK"
+.TER      U5 1 
+
+.ADD_TER  U3 15 "EE_CS"
+.TER      U5 5 
+
+.ADD_TER  U3 9 "EE_IO"
+.TER      U5 3 
+
+.ADD_TER  R11 2 "EFI_CAP"
+.TER      R12 2 
+          R13 2 
+          R14 2 
+          C15 1 
+
+.ADD_TER  U3 24 "ETH_X1"
+.TER      Y3 2 
+          C13 2 
+          TP8 1 
+
+.ADD_TER  U3 25 "ETH_X2"
+.TER      Y3 1 
+          C14 2 
+          TP9 1 
+
+.ADD_TER  U10 10 "GND"
+.TER      U10 11 
+          U11 10 
+          U11 11 
+          J23 2 
+          J23 3 
+          D3 1 
+          R25 2 
+          C47 2 
+          C48 2 
+          D4 1 
+          R27 2 
+          R28 2 
+          C73 2 
+          U8 5 
+          U8 6 
+          U8 7 
+          U8 8 
+          R24 2 
+          C43 2 
+          C44 2 
+          U9 4 
+          R22 2 
+          U12 15 
+          J29 4 
+          C84 2 
+          C89 2 
+          C74 2 
+          C76 2 
+          C80 2 
+          U3 7 
+          U3 13 
+          U3 18 
+          U3 26 
+          U3 28 
+          U3 37 
+          J1 10 
+          J1 12 
+          C15 2 
+          C24 2 
+          C22 2 
+          C21 2 
+          C13 1 
+          C14 1 
+          U5 2 
+          U7 13 
+          U7 36 
+          U1 A1 
+          U1 A3 
+          U1 B9 
+          U1 C1 
+          U1 D9 
+          U1 E1 
+          U1 F1 
+          U1 K1 
+          C45 2 
+          D2 1 
+          C33 2 
+          C32 2 
+          C65 2 
+          C66 2 
+          C67 2 
+          C68 2 
+          C69 2 
+          C70 2 
+          C71 2 
+          C64 2 
+          C63 2 
+          C62 2 
+          C49 2 
+          C55 2 
+          C50 2 
+          C54 2 
+          C52 2 
+          C51 2 
+          C53 2 
+          C60 2 
+          C59 2 
+          C56 2 
+          C57 2 
+          C58 2 
+          C8 2 
+          C9 2 
+          C10 2 
+          C11 2 
+          C12 2 
+          C5 2 
+          C6 2 
+          C7 2 
+          C17 2 
+          C16 2 
+          C19 2 
+          C23 2 
+          C18 2 
+          J27 4 
+          J26 4 
+          C83 2 
+          C82 2 
+          J17 1 
+          J17 3 
+          J17 30 
+          J17 36 
+          J15 2 
+          J15 3 
+          C3 1 
+          C4 1 
+          C2 1 
+          C1 1 
+          U2 J8 
+          U2 J9 
+          U2 J10 
+          U2 K9 
+          U2 K10 
+          U2 P6 
+          U2 P7 
+          U2 P13 
+          U2 D5 
+          U2 B2 
+          U2 R15 
+          U2 N16 
+          U2 D8 
+          U2 H14 
+          U2 K8 
+          U2 P11 
+          U6 33 
+          R16 2 
+          C35 2 
+          C36 2 
+          C37 2 
+          C38 2 
+          C39 2 
+          C40 2 
+          C41 2 
+          C42 2 
+          C34 2 
+          C30 2 
+          C31 2 
+          C20 2 
+          U13 3 
+          C77 2 
+          C78 2 
+          C81 2 
+          C26 2 
+          C27 2 
+          C29 2 
+          C28 2 
+          J28 2 
+          J28 10 
+          C85 2 
+          C86 2 
+          C90 2 
+          C91 2 
+          C87 2 
+          C88 2 
+          J9 1 
+          J11 1 
+          J13 1 
+          J14 1 
+          J8 1 
+          J8 3 
+          J8 5 
+          J8 7 
+          J8 39 
+          J8 40 
+          C25 2 
+          R15 1 
+          U14 4 
+          U14 20 
+          U14 24 
+          U14 26 
+          U14 33 
+          U14 17 
+
+.ADD_TER  J8 53 "GPS_RX"
+.TER      J12 1 
+
+.ADD_TER  J8 51 "GPS_TX"
+.TER      J7 1 
+
+.ADD_TER  F2 1 "IN_V"
+.TER      J23 1 
+
+.ADD_TER  D1 2 "IN_VAF"
+.TER      F2 2 
+
+.ADD_TER  J15 1 "LCD_PWR"
+.TER      F1 1 
+
+.ADD_TER  U12 13 "MAX_RXD"
+.TER      J8 29 
+
+.ADD_TER  U12 14 "MAX_TXD"
+.TER      J8 31 
+
+.ADD_TER  U9 3 "PSM1V"
+.TER      R21 2 
+          R22 1 
+
+.ADD_TER  U4 10 "PUL_P10"
+.TER      R14 1 
+
+.ADD_TER  U4 15 "PUL_P15"
+.TER      R13 1 
+
+.ADD_TER  U4 2 "PUL_P72"
+.TER      U4 7 
+          C24 1 
+          C22 1 
+
+.ADD_TER  U3 17 "PUL_RXM"
+.TER      U4 8 
+
+.ADD_TER  U3 16 "PUL_RXP"
+.TER      U4 6 
+
+.ADD_TER  U3 20 "PUL_TXM"
+.TER      U4 3 
+
+.ADD_TER  U3 19 "PUL_TXP"
+.TER      U4 1 
+
+.ADD_TER  D2 2 "PWR_LED"
+.TER      R20 2 
+
+.ADD_TER  Y2 2 "PXIN"
+.TER      C3 2 
+          U2 U17 
+          TP3 1 
+
+.ADD_TER  Y1 2 "PXIN32"
+.TER      C1 2 
+          U2 A4 
+          TP2 1 
+
+.ADD_TER  Y2 1 "PXOUT"
+.TER      C4 2 
+          U2 U16 
+          TP5 1 
+
+.ADD_TER  C2 2 "PXOUT32"
+.TER      Y1 1 
+          U2 A3 
+          TP4 1 
+
+.ADD_TER  U6 31 "RES12K"
+.TER      R16 1 
+
+.ADD_TER  J30 1 "RESET#USB"
+.TER      U14 18 
+
+.ADD_TER  U3 2 "RJ_PLED0A"
+.TER      J1 9 
+
+.ADD_TER  U3 1 "RJ_PLED1A"
+.TER      J1 11 
+
+.ADD_TER  J1 4 "RJ_RT1"
+.TER      J1 5 
+          R11 1 
+
+.ADD_TER  J1 7 "RJ_RT2"
+.TER      J1 8 
+          R12 1 
+
+.ADD_TER  U4 9 "RJ_RXM"
+.TER      J1 6 
+
+.ADD_TER  U4 11 "RJ_RXP"
+.TER      J1 3 
+
+.ADD_TER  U4 14 "RJ_TXM"
+.TER      J1 2 
+
+.ADD_TER  U4 16 "RJ_TXP"
+.TER      J1 1 
+
+.ADD_TER  R29 2 "SAM_A0"
+.TER      U2 D17 
+
+.ADD_TER  R30 2 "SAM_A1"
+.TER      U2 C17 
+
+.ADD_TER  R47 2 "SAM_A10"
+.TER      U2 C16 
+
+.ADD_TER  R48 2 "SAM_A11"
+.TER      U2 F14 
+
+.ADD_TER  R49 2 "SAM_A12"
+.TER      U2 B16 
+
+.ADD_TER  R50 2 "SAM_A13"
+.TER      U2 A16 
+
+.ADD_TER  U2 C15 "SAM_A14"
+
+.ADD_TER  U2 D15 "SAM_A15"
+
+.ADD_TER  U2 B15 "SAM_A16"
+
+.ADD_TER  U2 E14 "SAM_A17"
+
+.ADD_TER  U2 A15 "SAM_A18"
+
+.ADD_TER  U2 D14 "SAM_A19"
+
+.ADD_TER  R31 2 "SAM_A2"
+.TER      U2 F16 
+
+.ADD_TER  R33 2 "SAM_A3"
+.TER      U2 B17 
+
+.ADD_TER  R35 2 "SAM_A4"
+.TER      U2 A17 
+
+.ADD_TER  R37 2 "SAM_A5"
+.TER      U2 F15 
+
+.ADD_TER  R39 2 "SAM_A6"
+.TER      U2 E16 
+
+.ADD_TER  R41 2 "SAM_A7"
+.TER      U2 D18 
+
+.ADD_TER  R43 2 "SAM_A8"
+.TER      U2 E15 
+
+.ADD_TER  R45 2 "SAM_A9"
+.TER      U2 G14 
+
+.ADD_TER  U2 T7 "SAM_ALSINT"
+.TER      U13 7 
+          R86 2 
+
+.ADD_TER  U1 G8 "SAM_CAS"
+.TER      U2 D9 
+          R4 2 
+
+.ADD_TER  R51 1 "SAM_D0"
+.TER      R32 1 
+          R52 1 
+          U2 B14 
+
+.ADD_TER  R53 1 "SAM_D1"
+.TER      R34 1 
+          R54 1 
+          U2 A14 
+
+.ADD_TER  R71 1 "SAM_D10"
+.TER      R72 1 
+          U2 C11 
+
+.ADD_TER  R73 1 "SAM_D11"
+.TER      R74 1 
+          U2 D11 
+
+.ADD_TER  R75 1 "SAM_D12"
+.TER      R76 1 
+          U2 A12 
+
+.ADD_TER  R77 1 "SAM_D13"
+.TER      R78 1 
+          U2 B11 
+
+.ADD_TER  R79 1 "SAM_D14"
+.TER      R80 1 
+          U2 A11 
+
+.ADD_TER  R81 1 "SAM_D15"
+.TER      R82 1 
+          U2 C10 
+
+.ADD_TER  U2 L15 "SAM_D16"
+
+.ADD_TER  U2 L16 "SAM_D17"
+
+.ADD_TER  U2 L17 "SAM_D18"
+
+.ADD_TER  U2 K17 "SAM_D19"
+
+.ADD_TER  R55 1 "SAM_D2"
+.TER      R36 1 
+          R56 1 
+          U2 C14 
+
+.ADD_TER  U2 K16 "SAM_D20"
+
+.ADD_TER  U2 K15 "SAM_D21"
+
+.ADD_TER  U2 J17 "SAM_D22"
+
+.ADD_TER  U2 J16 "SAM_D23"
+
+.ADD_TER  U2 H17 "SAM_D24"
+
+.ADD_TER  U2 J15 "SAM_D25"
+
+.ADD_TER  U2 G17 "SAM_D26"
+
+.ADD_TER  U2 H16 "SAM_D27"
+
+.ADD_TER  U2 H15 "SAM_D28"
+
+.ADD_TER  U2 F17 "SAM_D29"
+
+.ADD_TER  R57 1 "SAM_D3"
+.TER      R38 1 
+          R58 1 
+          U2 D13 
+
+.ADD_TER  U2 G16 "SAM_D30"
+
+.ADD_TER  U2 E17 "SAM_D31"
+
+.ADD_TER  R59 1 "SAM_D4"
+.TER      R40 1 
+          R60 1 
+          U2 C13 
+
+.ADD_TER  R61 1 "SAM_D5"
+.TER      R42 1 
+          R62 1 
+          U2 B13 
+
+.ADD_TER  R63 1 "SAM_D6"
+.TER      R44 1 
+          R64 1 
+          U2 A13 
+
+.ADD_TER  R65 1 "SAM_D7"
+.TER      R46 1 
+          R66 1 
+          U2 C12 
+
+.ADD_TER  R67 1 "SAM_D8"
+.TER      R68 1 
+          U2 D12 
+
+.ADD_TER  R69 1 "SAM_D9"
+.TER      R70 1 
+          U2 B12 
+
+.ADD_TER  U1 J8 "SAM_DA0"
+.TER      R29 1 
+
+.ADD_TER  U1 J9 "SAM_DA1"
+.TER      R30 1 
+
+.ADD_TER  U1 J7 "SAM_DA10"
+.TER      R47 1 
+
+.ADD_TER  U1 H2 "SAM_DA11"
+.TER      R48 1 
+
+.ADD_TER  U1 H3 "SAM_DA12"
+.TER      R49 1 
+
+.ADD_TER  U1 F7 "SAM_DA13"
+.TER      R50 1 
+
+.ADD_TER  U1 K7 "SAM_DA2"
+.TER      R31 1 
+
+.ADD_TER  U1 K8 "SAM_DA3"
+.TER      R33 1 
+
+.ADD_TER  U1 K2 "SAM_DA4"
+.TER      R35 1 
+
+.ADD_TER  U1 K3 "SAM_DA5"
+.TER      R37 1 
+
+.ADD_TER  U1 J1 "SAM_DA6"
+.TER      R39 1 
+
+.ADD_TER  U1 J2 "SAM_DA7"
+.TER      R41 1 
+
+.ADD_TER  U1 J3 "SAM_DA8"
+.TER      R43 1 
+
+.ADD_TER  U1 H1 "SAM_DA9"
+.TER      R45 1 
+
+.ADD_TER  U1 A8 "SAM_DDR0"
+.TER      R52 2 
+
+.ADD_TER  U1 B7 "SAM_DDR1"
+.TER      R54 2 
+
+.ADD_TER  U1 D3 "SAM_DDR10"
+.TER      R72 2 
+
+.ADD_TER  U1 C2 "SAM_DDR11"
+.TER      R74 2 
+
+.ADD_TER  U1 C3 "SAM_DDR12"
+.TER      R76 2 
+
+.ADD_TER  U1 B2 "SAM_DDR13"
+.TER      R78 2 
+
+.ADD_TER  U1 B3 "SAM_DDR14"
+.TER      R80 2 
+
+.ADD_TER  U1 A2 "SAM_DDR15"
+.TER      R82 2 
+
+.ADD_TER  U1 B8 "SAM_DDR2"
+.TER      R56 2 
+
+.ADD_TER  U1 C7 "SAM_DDR3"
+.TER      R58 2 
+
+.ADD_TER  U1 C8 "SAM_DDR4"
+.TER      R60 2 
+
+.ADD_TER  U1 D7 "SAM_DDR5"
+.TER      R62 2 
+
+.ADD_TER  U1 D8 "SAM_DDR6"
+.TER      R64 2 
+
+.ADD_TER  U1 E7 "SAM_DDR7"
+.TER      R66 2 
+
+.ADD_TER  U1 E3 "SAM_DDR8"
+.TER      R68 2 
+
+.ADD_TER  U1 D2 "SAM_DDR9"
+.TER      R70 2 
+
+.ADD_TER  U1 F8 "SAM_DQM0"
+.TER      U2 C9 
+
+.ADD_TER  U1 F2 "SAM_DQM1"
+.TER      U2 A8 
+
+.ADD_TER  U1 E8 "SAM_DQS0"
+.TER      U2 B8 
+
+.ADD_TER  U1 E2 "SAM_DQS1"
+.TER      U2 A7 
+
+.ADD_TER  U3 11 "SAM_ETCMD"
+.TER      U2 P5 
+
+.ADD_TER  U3 48 "SAM_ETD0"
+.TER      R51 2 
+
+.ADD_TER  U3 47 "SAM_ETD1"
+.TER      R53 2 
+
+.ADD_TER  U3 35 "SAM_ETD10"
+.TER      R71 2 
+
+.ADD_TER  U3 34 "SAM_ETD11"
+.TER      R73 2 
+
+.ADD_TER  U3 33 "SAM_ETD12"
+.TER      R75 2 
+
+.ADD_TER  U3 32 "SAM_ETD13"
+.TER      R77 2 
+
+.ADD_TER  U3 31 "SAM_ETD14"
+.TER      R79 2 
+
+.ADD_TER  U3 30 "SAM_ETD15"
+.TER      R81 2 
+
+.ADD_TER  U3 45 "SAM_ETD2"
+.TER      R55 2 
+
+.ADD_TER  U3 44 "SAM_ETD3"
+.TER      R57 2 
+
+.ADD_TER  U3 43 "SAM_ETD4"
+.TER      R59 2 
+
+.ADD_TER  U3 42 "SAM_ETD5"
+.TER      R61 2 
+
+.ADD_TER  U3 41 "SAM_ETD6"
+.TER      R63 2 
+
+.ADD_TER  U3 40 "SAM_ETD7"
+.TER      R65 2 
+
+.ADD_TER  U3 39 "SAM_ETD8"
+.TER      R67 2 
+
+.ADD_TER  U3 36 "SAM_ETD9"
+.TER      R69 2 
+
+.ADD_TER  U3 4 "SAM_ETINT"
+.TER      U2 R6 
+          R8 2 
+
+.ADD_TER  U3 22 "SAM_ETISET"
+.TER      U2 U6 
+
+.ADD_TER  U3 12 "SAM_ETNCS"
+.TER      U2 U4 
+          R6 2 
+          TP6 1 
+
+.ADD_TER  U3 23 "SAM_ETNRS"
+.TER      U2 R4 
+          R7 2 
+          TP7 1 
+
+.ADD_TER  U3 3 "SAM_ETPME"
+.TER      U2 R5 
+
+.ADD_TER  U3 5 "SAM_ETRDN"
+.TER      U2 T5 
+          R9 2 
+
+.ADD_TER  U3 6 "SAM_ETWRN"
+.TER      U2 T6 
+          R10 2 
+
+.ADD_TER  U2 T3 "SAM_GPSCTS"
+.TER      J8 35 
+
+.ADD_TER  U2 U2 "SAM_GPSRI"
+.TER      J8 37 
+
+.ADD_TER  U2 U3 "SAM_GPSRTS"
+.TER      J8 33 
+
+.ADD_TER  U2 T12 "SAM_I2CLK"
+.TER      U6 9 
+          U13 2 
+          R84 2 
+
+.ADD_TER  U2 R10 "SAM_I2SDA"
+.TER      U6 14 
+          U13 8 
+          R85 2 
+
+.ADD_TER  J17 6 "SAM_LCDDAT0"
+.TER      U2 G2 
+
+.ADD_TER  J17 7 "SAM_LCDDAT1"
+.TER      U2 G1 
+
+.ADD_TER  J17 16 "SAM_LCDDAT10"
+.TER      U2 L1 
+
+.ADD_TER  J17 17 "SAM_LCDDAT11"
+.TER      U2 K1 
+
+.ADD_TER  J17 18 "SAM_LCDDAT12"
+.TER      U2 L2 
+
+.ADD_TER  J17 19 "SAM_LCDDAT13"
+.TER      U2 K3 
+
+.ADD_TER  J17 20 "SAM_LCDDAT14"
+.TER      U2 M1 
+
+.ADD_TER  J17 21 "SAM_LCDDAT15"
+.TER      J19 3 
+
+.ADD_TER  J17 22 "SAM_LCDDAT16"
+.TER      J20 3 
+
+.ADD_TER  J17 23 "SAM_LCDDAT17"
+.TER      U2 M3 
+
+.ADD_TER  J17 24 "SAM_LCDDAT18"
+.TER      U2 N1 
+
+.ADD_TER  J17 25 "SAM_LCDDAT19"
+.TER      U2 N2 
+
+.ADD_TER  J17 8 "SAM_LCDDAT2"
+.TER      U2 H4 
+
+.ADD_TER  J17 26 "SAM_LCDDAT20"
+.TER      U2 N3 
+
+.ADD_TER  J17 27 "SAM_LCDDAT21"
+.TER      U2 P1 
+
+.ADD_TER  J17 28 "SAM_LCDDAT22"
+.TER      U2 P2 
+
+.ADD_TER  J17 29 "SAM_LCDDAT23"
+.TER      U2 P3 
+
+.ADD_TER  J17 9 "SAM_LCDDAT3"
+.TER      U2 J1 
+
+.ADD_TER  J17 10 "SAM_LCDDAT4"
+.TER      U2 H3 
+
+.ADD_TER  J17 11 "SAM_LCDDAT5"
+.TER      U2 J3 
+
+.ADD_TER  J17 12 "SAM_LCDDAT6"
+.TER      U2 H2 
+
+.ADD_TER  J17 13 "SAM_LCDDAT7"
+.TER      U2 H1 
+
+.ADD_TER  J17 14 "SAM_LCDDAT8"
+.TER      J16 3 
+
+.ADD_TER  J17 15 "SAM_LCDDAT9"
+.TER      J18 3 
+
+.ADD_TER  J17 34 "SAM_LCDDEN"
+.TER      U2 N4 
+
+.ADD_TER  J17 31 "SAM_LCDDISP"
+.TER      U2 R1 
+
+.ADD_TER  J17 32 "SAM_LCDHSYNC"
+.TER      U2 M4 
+
+.ADD_TER  J17 5 "SAM_LCDPWM"
+.TER      U2 R2 
+
+.ADD_TER  J17 33 "SAM_LCDVSYNC"
+.TER      U2 T1 
+
+.ADD_TER  U7 17 "SAM_NALE"
+.TER      U2 M15 
+
+.ADD_TER  U7 16 "SAM_NCLE"
+.TER      U2 M14 
+
+.ADD_TER  U7 9 "SAM_NCS"
+.TER      U2 P16 
+          R17 2 
+          TP12 1 
+
+.ADD_TER  U7 29 "SAM_ND0"
+.TER      R32 2 
+
+.ADD_TER  U7 30 "SAM_ND1"
+.TER      R34 2 
+
+.ADD_TER  U7 31 "SAM_ND2"
+.TER      R36 2 
+
+.ADD_TER  U7 32 "SAM_ND3"
+.TER      R38 2 
+
+.ADD_TER  U7 41 "SAM_ND4"
+.TER      R40 2 
+
+.ADD_TER  U7 42 "SAM_ND5"
+.TER      R42 2 
+
+.ADD_TER  U7 43 "SAM_ND6"
+.TER      R44 2 
+
+.ADD_TER  U7 44 "SAM_ND7"
+.TER      R46 2 
+
+.ADD_TER  U7 8 "SAM_NRE"
+.TER      U2 P15 
+          R19 2 
+
+.ADD_TER  U9 5 "SAM_NRST"
+.TER      U2 R13 
+          J28 6 
+          TP13 1 
+
+.ADD_TER  U2 T15 "SAM_NTRST"
+.TER      J28 8 
+
+.ADD_TER  U7 18 "SAM_NWE"
+.TER      U2 N14 
+          R18 2 
+
+.ADD_TER  U2 K2 "SAM_PROCL1"
+.TER      J16 2 
+
+.ADD_TER  U2 J2 "SAM_PROCL2"
+.TER      J18 2 
+
+.ADD_TER  U2 M2 "SAM_PROCL3"
+.TER      J19 2 
+
+.ADD_TER  U2 K4 "SAM_PROCL4"
+.TER      J20 2 
+
+.ADD_TER  U1 G9 "SAM_RAS"
+.TER      U2 B9 
+          R3 2 
+
+.ADD_TER  U1 G2 "SAM_SDCK"
+.TER      U2 A10 
+
+.ADD_TER  U1 G3 "SAM_SDCK#"
+.TER      U2 A9 
+
+.ADD_TER  U1 G1 "SAM_SDCKE"
+.TER      U2 D10 
+          R2 2 
+
+.ADD_TER  U1 H7 "SAM_SDCS"
+.TER      U2 C5 
+          R1 2 
+          TP1 1 
+
+.ADD_TER  U1 G7 "SAM_SDWE"
+.TER      U2 B10 
+          R5 2 
+
+.ADD_TER  U2 R12 "SAM_TCK"
+.TER      J28 1 
+
+.ADD_TER  U2 R11 "SAM_TDI"
+.TER      J28 9 
+
+.ADD_TER  U2 U14 "SAM_TDO"
+.TER      J28 3 
+
+.ADD_TER  U2 T13 "SAM_TMS"
+.TER      J28 5 
+
+.ADD_TER  J27 2 "SAM_UDDM"
+.TER      U2 R16 
+
+.ADD_TER  J27 3 "SAM_UDDP"
+.TER      U2 R17 
+
+.ADD_TER  J26 2 "SAM_UHDM"
+.TER      U2 N17 
+
+.ADD_TER  J26 3 "SAM_UHDP"
+.TER      U2 P17 
+
+.ADD_TER  U12 12 "SAM_URXD0"
+.TER      J18 1 
+
+.ADD_TER  U12 9 "SAM_URXD1"
+.TER      J20 1 
+
+.ADD_TER  U12 11 "SAM_UTXD0"
+.TER      J16 1 
+
+.ADD_TER  U12 10 "SAM_UTXD1"
+.TER      J19 1 
+
+.ADD_TER  U2 U7 "SAM_WERST"
+.TER      U6 32 
+
+.ADD_TER  U2 U5 "SAM_WIFICS"
+.TER      U6 7 
+          TP11 1 
+
+.ADD_TER  U6 8 "SAM_WSL"
+
+.ADD_TER  J5 1 "SIM_CLK"
+.TER      J8 23 
+
+.ADD_TER  J4 1 "SIM_DATA"
+.TER      J8 21 
+
+.ADD_TER  J2 1 "SIM_PRE"
+.TER      J8 15 
+
+.ADD_TER  J3 1 "SIM_RST"
+.TER      J8 19 
+
+.ADD_TER  U6 25 "U0RXD"
+.TER      J22 1 
+
+.ADD_TER  U6 26 "U0TXD"
+.TER      J21 1 
+
+.ADD_TER  U12 3 "UART_C1M"
+.TER      C75 2 
+
+.ADD_TER  U12 1 "UART_C1P"
+.TER      C75 1 
+
+.ADD_TER  U12 5 "UART_C2M"
+.TER      C79 2 
+
+.ADD_TER  U12 4 "UART_C2P"
+.TER      C79 1 
+
+.ADD_TER  U12 2 "UART_V1P"
+.TER      C76 1 
+
+.ADD_TER  U12 6 "UART_VM"
+.TER      C80 1 
+
+.ADD_TER  J29 2 "USBDM"
+.TER      U14 15 
+
+.ADD_TER  J29 3 "USBDP"
+.TER      U14 14 
+
+.ADD_TER  C89 1 "USB_DRN"
+.TER      U14 16 
+
+.ADD_TER  R21 1 "VCC_1V"
+.TER      C65 1 
+          C66 1 
+          C67 1 
+          C68 1 
+          C69 1 
+          C70 1 
+          C71 1 
+          U2 C4 
+          U2 M16 
+          U2 T17 
+          U2 C8 
+          U2 G15 
+          U2 J4 
+          U2 P10 
+          U6 5 
+          C34 1 
+          L4 2 
+          C88 1 
+
+.ADD_TER  U9 2 "VCC_1V8"
+.TER      U3 14 
+          U3 29 
+          U1 A7 
+          U1 A9 
+          U1 B1 
+          U1 C9 
+          U1 D1 
+          U1 E9 
+          U1 F9 
+          U1 K9 
+          C64 1 
+          C63 1 
+          C62 1 
+          C8 1 
+          C9 1 
+          C10 1 
+          C11 1 
+          C12 1 
+          C5 1 
+          C6 1 
+          C7 1 
+          C23 1 
+          U2 H8 
+          U2 H9 
+          U2 H10 
+          C20 1 
+          R1 1 
+          R2 1 
+          R3 1 
+          R4 1 
+          R5 1 
+          C86 1 
+          L3 2 
+          J8 9 
+          J8 17 
+
+.ADD_TER  U9 1 "VCC_3V3"
+.TER      U12 16 
+          J29 1 
+          C84 1 
+          C74 1 
+          U3 21 
+          U3 27 
+          U3 38 
+          U3 46 
+          C21 1 
+          U5 4 
+          U7 12 
+          U7 37 
+          C33 1 
+          C32 1 
+          C49 1 
+          C55 1 
+          C50 1 
+          C54 1 
+          C52 1 
+          C51 1 
+          C53 1 
+          C60 1 
+          C59 1 
+          C56 1 
+          C57 1 
+          C58 1 
+          C17 1 
+          C16 1 
+          C19 1 
+          C18 1 
+          J27 1 
+          J26 1 
+          C83 1 
+          C82 1 
+          J17 4 
+          U2 J14 
+          U2 K14 
+          U2 L14 
+          U2 P9 
+          U2 P12 
+          U2 L3 
+          U2 L4 
+          U2 D6 
+          U2 B3 
+          U2 T16 
+          U2 P14 
+          U2 R14 
+          U6 1 
+          U6 3 
+          U6 4 
+          U6 6 
+          U6 11 
+          U6 17 
+          U6 29 
+          U6 30 
+          C35 1 
+          C36 1 
+          C37 1 
+          C38 1 
+          C39 1 
+          C40 1 
+          C41 1 
+          C42 1 
+          R6 1 
+          R7 1 
+          R8 1 
+          R9 1 
+          R10 1 
+          R17 1 
+          R18 1 
+          R19 1 
+          U13 4 
+          C77 1 
+          C81 1 
+          R84 1 
+          R85 1 
+          R86 1 
+          R83 1 
+          C26 1 
+          C27 1 
+          C29 1 
+          C28 1 
+          C91 1 
+          L5 2 
+          J8 2 
+          J8 4 
+          J8 6 
+          J8 8 
+          U14 1 
+          U14 19 
+
+.ADD_TER  U10 4 "VCC_5V"
+.TER      U10 5 
+          U11 1 
+          U11 4 
+          U11 5 
+          D1 1 
+          C47 1 
+          U8 1 
+          U8 2 
+          C44 1 
+          U9 8 
+          C45 1 
+          R20 1 
+          J28 4 
+          J28 7 
+
+.ADD_TER  U8 3 "VCC_NF1V"
+.TER      R23 1 
+          C43 1 
+          C87 1 
+          L4 1 
+
+.ADD_TER  R26 2 "VCC_NF1V8"
+.TER      C73 1 
+          L2 1 
+          C61 2 
+          C85 1 
+          L3 1 
+
+.ADD_TER  U10 1 "VCC_NF3V3"
+.TER      L1 2 
+          C48 1 
+          C90 1 
+          L5 1 
+
+.ADD_TER  J17 2 "VCC_SYS"
+.TER      F1 2 
+          TP10 1 
+
+.ADD_TER  J8 11 "VRTC"
+.TER      C25 1 
+
+.ADD_TER  U6 28 "WIFI_XTALIN"
+.TER      Y4 2 
+          C30 1 
+
+.ADD_TER  U6 27 "WIFI_XTALOUT"
+.TER      Y4 1 
+          C31 1 
+
+.END

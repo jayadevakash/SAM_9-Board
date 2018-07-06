@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HEADERSINGLE.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Feb 04 13:27:58 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/SAM9_Board/Symbols
+    Name      = headersingle.psm
+    User      = Akash
+    Machine   = DESKTOP-VO8O373
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

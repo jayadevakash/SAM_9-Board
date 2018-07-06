@@ -1,0 +1,20 @@
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Wed Mar 14 15:51:44 2018
+\t (00:00:02)         Host=DESKTOP-VO8O373 User=Akash Pid=6864 CPUs=4
+\t (00:00:02) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: D:/SAM9_Board/Symbols/cap0402.dra
+\i (00:00:04) trapsize 3
+\i (00:00:05) trapsize 3
+\i (00:00:06) generaledit 
+\i (00:00:07) open 
+\i (00:00:17) fillin "D:\SAM9_Board\PCB\SAM9_BOARDV2.0.brd"
+\i (00:00:17) cd "D:\SAM9_Board\PCB"
+\t (00:00:17) Opening existing design...
+\t (00:00:17) Grids are drawn 160.0, 160.0 apart for enhanced viewability.
+\i (00:00:17) trapsize 708
+\i (00:00:17) trapsize 686
+\i (00:00:18) trapsize 708
+\i (00:00:18) trapsize 565
+\i (00:00:18) trapsize 565
+\t (00:00:18)     Journal end - Wed Mar 14 15:52:01 2018

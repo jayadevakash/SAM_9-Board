@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MT46H128M16LT.dra                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Feb 10 12:41:34 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/SAM9_Board/Symbols
+    Name      = mt46h128m16lt.psm
+    User      = Akash
+    Machine   = DESKTOP-VO8O373
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

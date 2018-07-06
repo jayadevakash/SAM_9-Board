@@ -1,0 +1,77 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : SAM9Boardv2.brd                               )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Mar 24 11:18:36 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'D:\SAM9_BOARD\SYMBOLS';
+BOARD_DIRECTORY 'C:/Users/Akash/Documents/SAM9_Board/PCB';
+OLD_BOARD_NAME 'C:/Users/Akash/Documents/SAM9_Board/PCB/SAM9Boardv2.brd';
+NEW_BOARD_NAME 'C:/Users/Akash/Documents/SAM9_Board/PCB/SAM9Boardv2.brd';
+
+CmdLine: netrev.exe -y 1 -n -i D:\SAM9_BOARD\SYMBOLS C:\Users\Akash\Documents\SAM9_Board\PCB\SAM9Boardv2.brd C:\Users\Akash\Documents\SAM9_Board\PCB\SAM9Boardv2.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/SAM9_BOARD/SYMBOLS/pstchip.dat 
+   Finished reading D:/SAM9_BOARD/SYMBOLS/pstchip.dat (00:00:00.05)
+Starting to read D:/SAM9_BOARD/SYMBOLS/pstxprt.dat 
+   Finished reading D:/SAM9_BOARD/SYMBOLS/pstxprt.dat (00:00:00.00)
+Starting to read D:/SAM9_BOARD/SYMBOLS/pstxnet.dat 
+   Finished reading D:/SAM9_BOARD/SYMBOLS/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  D:/SAM9_Board/Symbols/ 
+
+PADPATH =  D:/SAM9_Board/Symbols/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 24 11:18:36 2018
+   DESIGN NAME : 'SAM9N12'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:54
+elapsed time  0:00:00
+

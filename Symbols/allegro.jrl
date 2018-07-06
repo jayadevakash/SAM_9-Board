@@ -1,0 +1,108 @@
+\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:03)     Journal start - Wed Mar 14 16:44:32 2018
+\t (00:00:03)         Host=DESKTOP-VO8O373 User=Akash Pid=14612 CPUs=4
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: D:/SAM9_Board/Symbols/cap0402.dra
+\i (00:00:03) trapsize 3
+\i (00:00:04) trapsize 3
+\i (00:00:05) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -38.4 33.0
+\i (00:00:06) trapsize 7
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -38.3 32.8
+\t (00:00:06) Grids are drawn 4.0, 4.0 apart for enhanced viewability.
+\i (00:00:06) trapsize 13
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -38.4 32.8
+\i (00:00:06) trapsize 26
+\i (00:00:07) open 
+\i (00:00:22) fillin "menu_cancel"
+\i (00:00:22) generaledit 
+\i (00:00:32) pick grid 208.5 -143.1
+\t (00:00:32) last pick:  209.0  -143.0
+\i (00:00:42) pick grid 112.4 -103.7
+\t (00:00:42) last pick:  112.0  -104.0
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 36.2 -0.2
+\t (00:00:42) Grids are drawn 16.0, 16.0 apart for enhanced viewability.
+\i (00:00:42) trapsize 53
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 38.4 -6.5
+\i (00:00:42) trapsize 105
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in -81.4 -25.5
+\i (00:00:43) trapsize 53
+\i (00:00:59) open 
+\i (00:01:08) fillin "menu_cancel"
+\i (00:01:08) generaledit 
+\i (00:01:13) pick grid -7.9 -194.6
+\t (00:01:13) last pick:  -8.0  -195.0
+\i (00:01:31) open 
+\i (00:01:38) fillin "NPcap0402.dra"
+\t (00:01:38) Opening existing design...
+\i (00:01:38) trapsize 13
+\d (00:01:38) Database opened: D:/SAM9_Board/Symbols/NPcap0402.dra
+\i (00:01:39) generaledit 
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out -99.6 -46.0
+\i (00:01:40) trapsize 26
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 75.3 38.0
+\i (00:01:41) trapsize 13
+\i (00:01:44) pick grid -21.0 34.3
+\t (00:01:44) last pick:  -20.0  30.0
+\i (00:01:44) pick grid -41.5 61.9
+\t (00:01:44) last pick:  -40.0  60.0
+\i (00:01:45) pick grid 10.5 29.8
+\t (00:01:45) last pick:  10.0  30.0
+\i (00:01:47) drag_start grid -6.3 29.1
+\i (00:01:47) move 
+\t (00:01:47) last pick:  -10.0  30.0
+\t (00:01:47) Element has no origin, using pick.
+\t (00:01:47) Pick new location for the element(s).
+\i (00:01:47) drag_stop grid -6.6 22.2
+\i (00:01:47) generaledit 
+\i (00:01:49) drag_start grid -1.9 25.9
+\i (00:01:49) move 
+\t (00:01:49) last pick:  0.0  30.0
+\t (00:01:49) Element has no origin, using pick.
+\t (00:01:49) Pick new location for the element(s).
+\i (00:01:49) drag_stop grid 0.5 36.4
+\i (00:01:50) generaledit 
+\i (00:01:51) drag_start grid -12.6 31.2
+\i (00:01:51) move 
+\t (00:01:51) last pick:  -10.0  30.0
+\t (00:01:51) Element has no origin, using pick.
+\t (00:01:51) Pick new location for the element(s).
+\i (00:01:52) drag_stop grid -11.3 24.3
+\i (00:01:52) generaledit 
+\i (00:01:54) save 
+\i (00:01:55) fillin yes 
+\t (00:02:00) Symbol 'npcap0402.psm' created.
+\i (00:02:00) generaledit 
+\i (00:02:03) open 
+\i (00:02:13) fillin "menu_cancel"
+\i (00:02:14) generaledit 
+\i (00:11:19) drag_start grid -26.8 23.3
+\i (00:11:19) move 
+\t (00:11:19) last pick:  -30.0  20.0
+\t (00:11:19) Element has no origin, using pick.
+\t (00:11:19) Pick new location for the element(s).
+\i (00:11:21) drag_stop grid -28.4 31.2
+\i (00:11:21) generaledit 
+\i (00:11:23) save 
+\i (00:11:25) fillin yes 
+\t (00:11:31) Symbol 'npcap0402.psm' created.
+\i (00:11:31) generaledit 
+\i (00:11:35) exit 
+\t (00:11:36)     Journal end - Wed Mar 14 16:56:05 2018

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : NPcap0402.dra                                 )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Mar 14 16:56:00 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/SAM9_Board/Symbols
+    Name      = npcap0402.psm
+    User      = Akash
+    Machine   = DESKTOP-VO8O373
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

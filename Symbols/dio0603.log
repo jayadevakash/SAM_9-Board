@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIO0603.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Feb 05 15:05:12 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/SAM9_Board/Symbols
+    Name      = dio0603.psm
+    User      = Akash
+    Machine   = DESKTOP-VO8O373
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

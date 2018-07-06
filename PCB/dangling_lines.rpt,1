@@ -1,0 +1,500 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : SAM9_BOARDV2.0_2_3003_0156.brd                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Mar 30 02:30:32 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  SAM_TDI              L8_SIGNAL4             889.0      (1935.0 1890.0) to *(1904.7 1080.3)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  SAM_A19              VIA_16               (2015.1 1441.3)  TOP/BOTTOM 
+  SAM_A18              VIA_16               (2046.6 1535.7)  TOP/BOTTOM 
+  SAM_A17              VIA_16               (2015.1 1409.8)  TOP/BOTTOM 
+  SAM_A16              VIA_16               (2046.6 1504.3)  TOP/BOTTOM 
+  SAM_A15              VIA_16               (2046.6 1441.3)  TOP/BOTTOM 
+  SAM_A14              VIA_16               (2046.6 1472.8)  TOP/BOTTOM 
+  SAM_D31              VIA_16               (2109.5 1409.8)  TOP/BOTTOM 
+  SAM_D30              VIA_16               (2078.0 1346.9)  TOP/BOTTOM 
+  SAM_D29              VIA_16               (2109.5 1378.3)  TOP/BOTTOM 
+  SAM_D28              VIA_16               (2046.6 1315.4)  TOP/BOTTOM 
+  SAM_D27              VIA_16               (2078.0 1315.4)  TOP/BOTTOM 
+  SAM_D26              VIA_16               (2109.5 1346.9)  TOP/BOTTOM 
+  SAM_D25              VIA_16               (2046.6 1283.9)  TOP/BOTTOM 
+  SAM_D24              VIA_16               (2109.5 1315.4)  TOP/BOTTOM 
+  SAM_D23              VIA_16               (2078.0 1283.9)  TOP/BOTTOM 
+  SAM_D22              VIA_16               (2109.5 1283.9)  TOP/BOTTOM 
+  SAM_D21              VIA_16               (2046.6 1220.9)  TOP/BOTTOM 
+  SAM_D20              VIA_16               (2078.0 1220.9)  TOP/BOTTOM 
+  SAM_D19              VIA_16               (2109.5 1220.9)  TOP/BOTTOM 
+  SAM_D18              VIA_16               (2109.5 1189.5)  TOP/BOTTOM 
+  SAM_LCDDISP          VIA_16               (1574.4 1063.5)  TOP/BOTTOM 
+  SAM_D17              VIA_16               (2078.0 1189.5)  TOP/BOTTOM 
+  SAM_D16              VIA_16               (2046.6 1189.5)  TOP/BOTTOM 
+  SAM_LCDVSYNC         VIA_16               (1574.4 1032.1)  TOP/BOTTOM 
+  SAM_PROCL1           VIA_16               (1605.8 1220.9)  TOP/BOTTOM 
+  SAM_LCDDAT16         BOARD_VIA            (277.3 1276.3)   TOP/BOTTOM 
+  SAM_LCDDAT15         BOARD_VIA            (298.0 1296.0)   TOP/BOTTOM 
+  SAM_LCDDAT9          BOARD_VIA            (295.0 1414.2)   TOP/BOTTOM 
+  SAM_LCDDAT8          BOARD_VIA            (277.0 1433.0)   TOP/BOTTOM 
+  SAM_DA12             VIA_12               (2634.0 1237.2)  TOP/BOTTOM 
+  SAM_DA9              VIA_12               (2634.0 1174.3)  TOP/BOTTOM 
+  SAM_DA5              VIA_12               (2571.0 1237.2)  TOP/BOTTOM 
+  SAM_DA6              VIA_12               (2602.5 1174.3)  TOP/BOTTOM 
+  SAM_DA2              VIA_12               (2571.0 1394.6)  TOP/BOTTOM 
+  SAM_DA4              VIA_12               (2571.0 1205.7)  TOP/BOTTOM 
+  SAM_DA1              VIA_12               (2602.5 1457.6)  TOP/BOTTOM 
+  PSM1V                BOARD_VIA            (1260.0 1265.0)  TOP/BOTTOM 
+  SAM_DA13             VIA_12               (2697.0 1394.6)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1382.0 1251.0)  TOP/BOTTOM 
+  PXOUT32              VIA_16               (1637.3 1535.7)  TOP/BOTTOM 
+  PXIN32               VIA_16               (1668.8 1535.7)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1155.0 1365.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (540.0 1460.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (540.0 1460.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1444.0 2089.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1444.0 2089.0)  TOP/BOTTOM 
+  Dummy Net            VIA_12               (2697.0 1237.2)  TOP/BOTTOM 
+  Dummy Net            VIA_12               (2634.0 1457.6)  TOP/BOTTOM 
+  Dummy Net            VIA_12               (2634.0 1426.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1095.0)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1983.6 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1920.6 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1952.1 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1826.2 1063.5)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1889.2 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1920.6 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1826.2 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1889.2 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1826.2 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1794.7 1063.5)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1794.7 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1794.7 1095.0)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1794.7 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1763.2 1063.5)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1378.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1441.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1409.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1441.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1346.9)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1346.9)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1378.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1378.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1441.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1409.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1472.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1441.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1472.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1504.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1472.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1535.7)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1409.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1378.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1409.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1535.7)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1574.4 1000.6)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1605.8 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1637.3 1063.5)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (2046.6 1126.5)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1700.3 1535.7)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1700.3 1504.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1731.8 1504.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (2015.1 1032.1)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (2109.5 1158.0)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1763.2 1441.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1731.8 1472.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1731.8 1535.7)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1763.2 1472.8)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1763.2 1504.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (1668.8 1504.3)  TOP/BOTTOM 
+  Dummy Net            VIA_16               (2046.6 1000.6)  TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  SAM_ETD13            BOARD_VIA            (1841.0 370.0)   TOP/BOTTOM 
+  SAM_ETD12            BOARD_VIA            (1822.0 345.0)   TOP/BOTTOM 
+  SAM_ETD11            BOARD_VIA            (1803.0 319.0)   TOP/BOTTOM 
+  SAM_A19              VIA_16               (2015.1 1441.3)  TOP/BOTTOM 
+  SAM_A18              VIA_16               (2046.6 1535.7)  TOP/BOTTOM 
+  SAM_A17              VIA_16               (2015.1 1409.8)  TOP/BOTTOM 
+  SAM_A16              VIA_16               (2046.6 1504.3)  TOP/BOTTOM 
+  SAM_A15              VIA_16               (2046.6 1441.3)  TOP/BOTTOM 
+  SAM_A14              VIA_16               (2046.6 1472.8)  TOP/BOTTOM 
+  SAM_NTRST            BOARD_VIA            (1875.5 1805.0)  TOP/BOTTOM 
+  SAM_NTRST            VIA_16               (2046.6 1032.1)  TOP/BOTTOM 
+  SAM_TDI              BOARD_VIA            (1935.0 1890.0)  TOP/BOTTOM 
+  SAM_TDI              VIA_16               (1920.6 1063.5)  TOP/BOTTOM 
+  SAM_TMS              VIA_16               (1983.6 1032.1)  TOP/BOTTOM 
+  SAM_TMS              BOARD_VIA            (1669.5 1802.5)  TOP/BOTTOM 
+  SAM_TDO              BOARD_VIA            (1764.5 1807.5)  TOP/BOTTOM 
+  SAM_TDO              VIA_16               (2015.1 1000.6)  TOP/BOTTOM 
+  SAM_A10              VIA_16               (2078.0 1472.8)  TOP/BOTTOM 
+  SAM_TCK              BOARD_VIA            (1710.5 2042.0)  TOP/BOTTOM 
+  SAM_TCK              VIA_16               (1952.1 1063.5)  TOP/BOTTOM 
+  SAM_A9               BOARD_VIA            (2315.0 1851.0)  TOP/BOTTOM 
+  SAM_A9               VIA_16               (2015.1 1346.9)  TOP/BOTTOM 
+  SAM_UDDP             VIA_16               (2109.5 1063.5)  TOP/BOTTOM 
+  SAM_UDDP             BOARD_VIA            (2109.8 951.7)   TOP/BOTTOM 
+  SAM_A7               VIA_16               (2078.0 1441.3)  TOP/BOTTOM 
+  SAM_UDDM             VIA_16               (2078.0 1063.5)  TOP/BOTTOM 
+  SAM_UDDM             BOARD_VIA            (2073.5 951.7)   TOP/BOTTOM 
+  SAM_A6               VIA_16               (2078.0 1409.8)  TOP/BOTTOM 
+  SAM_A3               VIA_16               (2109.5 1504.3)  TOP/BOTTOM 
+  SAM_WERST            BOARD_VIA            (346.5 590.5)    TOP/BOTTOM 
+  SAM_WERST            BOARD_VIA            (1564.5 865.0)   TOP/BOTTOM 
+  SAM_WERST            VIA_16               (1763.2 1000.6)  TOP/BOTTOM 
+  SAM_D31              VIA_16               (2109.5 1409.8)  TOP/BOTTOM 
+  SAM_D30              VIA_16               (2078.0 1346.9)  TOP/BOTTOM 
+  SAM_D29              VIA_16               (2109.5 1378.3)  TOP/BOTTOM 
+  SAM_D28              VIA_16               (2046.6 1315.4)  TOP/BOTTOM 
+  SAM_D27              VIA_16               (2078.0 1315.4)  TOP/BOTTOM 
+  SAM_D26              VIA_16               (2109.5 1346.9)  TOP/BOTTOM 
+  SAM_D25              VIA_16               (2046.6 1283.9)  TOP/BOTTOM 
+  SAM_D24              VIA_16               (2109.5 1315.4)  TOP/BOTTOM 
+  SAM_D23              VIA_16               (2078.0 1283.9)  TOP/BOTTOM 
+  SAM_D22              VIA_16               (2109.5 1283.9)  TOP/BOTTOM 
+  SAM_D21              VIA_16               (2046.6 1220.9)  TOP/BOTTOM 
+  ETH_X2               BOARD_VIA            (1976.0 378.0)   TOP/BOTTOM 
+  SAM_D20              VIA_16               (2078.0 1220.9)  TOP/BOTTOM 
+  SAM_D19              VIA_16               (2109.5 1220.9)  TOP/BOTTOM 
+  SAM_D18              VIA_16               (2109.5 1189.5)  TOP/BOTTOM 
+  SAM_LCDDISP          VIA_16               (1574.4 1063.5)  TOP/BOTTOM 
+  SAM_D17              VIA_16               (2078.0 1189.5)  TOP/BOTTOM 
+  SAM_ALSINT           BOARD_VIA            (2335.0 750.0)   TOP/BOTTOM 
+  SAM_ALSINT           BOARD_VIA            (2004.0 813.5)   TOP/BOTTOM 
+  SAM_ALSINT           VIA_16               (1763.2 1032.1)  TOP/BOTTOM 
+  SAM_D16              VIA_16               (2046.6 1189.5)  TOP/BOTTOM 
+  SAM_LCDDEN           BOARD_VIA            (279.9 1039.9)   TOP/BOTTOM 
+  SAM_LCDDEN           VIA_16               (1668.8 1126.5)  TOP/BOTTOM 
+  SAM_LCDHSYNC         BOARD_VIA            (280.3 1079.3)   TOP/BOTTOM 
+  SAM_LCDHSYNC         VIA_16               (1668.8 1158.0)  TOP/BOTTOM 
+  SAM_ETD10            BOARD_VIA            (1776.0 327.0)   TOP/BOTTOM 
+  SAM_LCDVSYNC         VIA_16               (1574.4 1032.1)  TOP/BOTTOM 
+  SAM_PROCL4           BOARD_VIA            (773.0 1201.0)   TOP/BOTTOM 
+  SAM_PROCL4           VIA_16               (1668.8 1220.9)  TOP/BOTTOM 
+  SAM_WIFICS           VIA_16               (1700.3 1000.6)  TOP/BOTTOM 
+  SAM_PROCL3           BOARD_VIA            (776.0 1277.0)   TOP/BOTTOM 
+  SAM_PROCL3           VIA_16               (1605.8 1158.0)  TOP/BOTTOM 
+  SAM_I2SDA            BOARD_VIA            (503.0 262.5)    TOP/BOTTOM 
+  SAM_I2SDA            BOARD_VIA            (2396.0 321.0)   TOP/BOTTOM 
+  SAM_I2SDA            VIA_16               (1889.2 1063.5)  TOP/BOTTOM 
+  SAM_PROCL2           BOARD_VIA            (779.0 1354.0)   TOP/BOTTOM 
+  SAM_PROCL2           VIA_16               (1605.8 1283.9)  TOP/BOTTOM 
+  SAM_I2CLK            BOARD_VIA            (1967.0 960.5)   TOP/BOTTOM 
+  SAM_I2CLK            VIA_16               (1952.1 1032.1)  TOP/BOTTOM 
+  SAM_PROCL1           VIA_16               (1605.8 1220.9)  TOP/BOTTOM 
+  SAM_ETCMD            BOARD_VIA            (1958.0 37.0)    TOP/BOTTOM 
+  SAM_ETCMD            VIA_16               (1700.3 1095.0)  TOP/BOTTOM 
+  SAM_ETISET           VIA_16               (1731.8 1000.6)  TOP/BOTTOM 
+  SAM_ETISET           BOARD_VIA            (2095.0 320.0)   TOP/BOTTOM 
+  SAM_ETPME            BOARD_VIA            (1800.4 119.4)   TOP/BOTTOM 
+  SAM_ETPME            BOARD_VIA            (1595.0 956.0)   TOP/BOTTOM 
+  SAM_ETPME            VIA_16               (1700.3 1063.5)  TOP/BOTTOM 
+  VCC_1V               BOARD_VIA            (325.0 445.0)    TOP/BOTTOM 
+  VCC_1V               BOARD_VIA            (1320.0 1165.0)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (1668.8 1283.9)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (1794.7 1472.8)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (1668.8 1472.8)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (1889.2 1095.0)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (2109.5 1032.1)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (2046.6 1346.9)  TOP/BOTTOM 
+  VCC_1V               VIA_16               (2078.0 1158.0)  TOP/BOTTOM 
+  SAM_ETNCS            VIA_16               (1668.8 1000.6)  TOP/BOTTOM 
+  SAM_ETRDN            VIA_16               (1700.3 1032.1)  TOP/BOTTOM 
+  SAM_ETRDN            BOARD_VIA            (1839.0 118.0)   TOP/BOTTOM 
+  SAM_ETINT            BOARD_VIA            (1820.1 36.9)    TOP/BOTTOM 
+  SAM_ETINT            VIA_16               (1731.8 1063.5)  TOP/BOTTOM 
+  SAM_ETWRN            VIA_16               (1731.8 1032.1)  TOP/BOTTOM 
+  SAM_ETWRN            BOARD_VIA            (2309.0 175.0)   TOP/BOTTOM 
+  SAM_DQS1             VIA_12               (2759.9 1205.7)  TOP/BOTTOM 
+  SAM_DQS1             VIA_16               (1763.2 1535.7)  TOP/BOTTOM 
+  VCC_1V8              BOARD_VIA            (1995.0 185.0)   TOP/BOTTOM 
+  VCC_1V8              BOARD_VIA            (1898.9 381.1)   TOP/BOTTOM 
+  VCC_1V8              VIA_16               (1794.7 1315.4)  TOP/BOTTOM 
+  VCC_1V8              VIA_16               (1826.2 1315.4)  TOP/BOTTOM 
+  VCC_1V8              VIA_16               (1857.7 1315.4)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2854.4 1174.3)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2791.4 1174.3)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2885.8 1394.6)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2822.9 1457.6)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2759.9 1457.6)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2697.0 1457.6)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2571.0 1457.6)  TOP/BOTTOM 
+  VCC_1V8              VIA_12               (2885.8 1457.6)  TOP/BOTTOM 
+  VCC_1V8              BOARD_VIA            (3362.0 1837.0)  TOP/BOTTOM 
+  VCC_1V8              BOARD_VIA            (3377.0 2037.0)  TOP/BOTTOM 
+  VCC_1V8              BOARD_VIA            (1235.0 1255.0)  TOP/BOTTOM 
+  SAM_DQS0             VIA_12               (2759.9 1426.1)  TOP/BOTTOM 
+  SAM_DQS0             VIA_16               (1794.7 1504.3)  TOP/BOTTOM 
+  SAM_DQM1             VIA_12               (2697.0 1205.7)  TOP/BOTTOM 
+  SAM_DQM1             VIA_16               (1794.7 1535.7)  TOP/BOTTOM 
+  SAM_DQM0             VIA_12               (2697.0 1426.1)  TOP/BOTTOM 
+  SAM_DQM0             VIA_16               (1826.2 1472.8)  TOP/BOTTOM 
+  SAM_LCDDAT2          BOARD_VIA            (277.9 1552.1)   TOP/BOTTOM 
+  SAM_LCDDAT2          VIA_16               (1668.8 1315.4)  TOP/BOTTOM 
+  SAM_LCDDAT1          BOARD_VIA            (298.2 1571.8)   TOP/BOTTOM 
+  SAM_LCDDAT1          VIA_16               (1574.4 1346.9)  TOP/BOTTOM 
+  SAM_LCDPWM           BOARD_VIA            (303.8 1611.2)   TOP/BOTTOM 
+  SAM_LCDPWM           VIA_16               (1605.8 1063.5)  TOP/BOTTOM 
+  SAM_LCDDAT23         BOARD_VIA            (298.6 1138.4)   TOP/BOTTOM 
+  SAM_LCDDAT23         VIA_16               (1637.3 1095.0)  TOP/BOTTOM 
+  SAM_NRE              BOARD_VIA            (2160.0 860.0)   TOP/BOTTOM 
+  SAM_NRE              VIA_16               (2046.6 1095.0)  TOP/BOTTOM 
+  SAM_LCDDAT22         BOARD_VIA            (275.9 1158.1)   TOP/BOTTOM 
+  SAM_LCDDAT22         VIA_16               (1605.8 1095.0)  TOP/BOTTOM 
+  SAM_NWE              BOARD_VIA            (2656.0 761.0)   TOP/BOTTOM 
+  SAM_NWE              VIA_16               (2015.1 1126.5)  TOP/BOTTOM 
+  SAM_LCDDAT21         BOARD_VIA            (299.8 1177.8)   TOP/BOTTOM 
+  SAM_LCDDAT21         VIA_16               (1574.4 1095.0)  TOP/BOTTOM 
+  SAM_NCLE             BOARD_VIA            (2746.0 786.0)   TOP/BOTTOM 
+  SAM_NCLE             VIA_16               (2015.1 1158.0)  TOP/BOTTOM 
+  VCC_SYS              BOARD_VIA            (229.7 1670.3)   TOP/BOTTOM 
+  SAM_LCDDAT20         BOARD_VIA            (276.5 1197.5)   TOP/BOTTOM 
+  SAM_LCDDAT20         VIA_16               (1637.3 1126.5)  TOP/BOTTOM 
+  SAM_NALE             BOARD_VIA            (2687.0 802.0)   TOP/BOTTOM 
+  SAM_NALE             VIA_16               (2046.6 1158.0)  TOP/BOTTOM 
+  SAM_LCDDAT19         BOARD_VIA            (298.8 1217.2)   TOP/BOTTOM 
+  SAM_LCDDAT19         VIA_16               (1605.8 1126.5)  TOP/BOTTOM 
+  SAM_NCS              BOARD_VIA            (2205.0 820.0)   TOP/BOTTOM 
+  SAM_LCDDAT18         BOARD_VIA            (278.9 1236.9)   TOP/BOTTOM 
+  SAM_LCDDAT18         VIA_16               (1574.4 1126.5)  TOP/BOTTOM 
+  SAM_LCDDAT17         BOARD_VIA            (297.6 1256.6)   TOP/BOTTOM 
+  SAM_LCDDAT17         VIA_16               (1637.3 1158.0)  TOP/BOTTOM 
+  SAM_LCDDAT16         BOARD_VIA            (277.3 1276.3)   TOP/BOTTOM 
+  SAM_LCDDAT15         BOARD_VIA            (298.0 1296.0)   TOP/BOTTOM 
+  SAM_LCDDAT14         BOARD_VIA            (277.7 1315.7)   TOP/BOTTOM 
+  SAM_LCDDAT14         VIA_16               (1574.4 1158.0)  TOP/BOTTOM 
+  SAM_LCDDAT13         BOARD_VIA            (297.4 1335.4)   TOP/BOTTOM 
+  SAM_LCDDAT13         VIA_16               (1637.3 1220.9)  TOP/BOTTOM 
+  SAM_LCDDAT12         BOARD_VIA            (278.1 1355.1)   TOP/BOTTOM 
+  SAM_LCDDAT12         VIA_16               (1605.8 1189.5)  TOP/BOTTOM 
+  SAM_LCDDAT11         BOARD_VIA            (297.2 1374.8)   TOP/BOTTOM 
+  SAM_LCDDAT11         VIA_16               (1574.4 1220.9)  TOP/BOTTOM 
+  SAM_LCDDAT9          BOARD_VIA            (295.0 1414.2)   TOP/BOTTOM 
+  SAM_LCDDAT8          BOARD_VIA            (277.0 1433.0)   TOP/BOTTOM 
+  SAM_DA12             VIA_12               (2634.0 1237.2)  TOP/BOTTOM 
+  SAM_LCDDAT7          BOARD_VIA            (293.2 1453.8)   TOP/BOTTOM 
+  SAM_LCDDAT7          VIA_16               (1574.4 1315.4)  TOP/BOTTOM 
+  SAM_DA9              VIA_12               (2634.0 1174.3)  TOP/BOTTOM 
+  SAM_LCDDAT6          BOARD_VIA            (277.0 1473.0)   TOP/BOTTOM 
+  SAM_LCDDAT6          VIA_16               (1605.8 1315.4)  TOP/BOTTOM 
+  SAM_DA5              VIA_12               (2571.0 1237.2)  TOP/BOTTOM 
+  SAM_LCDDAT5          BOARD_VIA            (297.0 1493.0)   TOP/BOTTOM 
+  SAM_LCDDAT5          VIA_16               (1637.3 1283.9)  TOP/BOTTOM 
+  SAM_DA6              VIA_12               (2602.5 1174.3)  TOP/BOTTOM 
+  SAM_LCDDAT4          BOARD_VIA            (277.3 1512.7)   TOP/BOTTOM 
+  SAM_LCDDAT4          VIA_16               (1637.3 1315.4)  TOP/BOTTOM 
+  SAM_DA2              VIA_12               (2571.0 1394.6)  TOP/BOTTOM 
+  SAM_DA4              VIA_12               (2571.0 1205.7)  TOP/BOTTOM 
+  SAM_DA3              VIA_12               (2571.0 1426.1)  TOP/BOTTOM 
+  SAM_DA3              BOARD_VIA            (2440.1 1610.0)  TOP/BOTTOM 
+  SAM_DA7              BOARD_VIA            (2440.1 1050.0)  TOP/BOTTOM 
+  SAM_DA7              VIA_12               (2602.5 1205.7)  TOP/BOTTOM 
+  SAM_DA1              VIA_12               (2602.5 1457.6)  TOP/BOTTOM 
+  SAM_DA10             BOARD_VIA            (2440.1 1540.0)  TOP/BOTTOM 
+  SAM_DA10             VIA_12               (2602.5 1394.6)  TOP/BOTTOM 
+  SAM_DA11             BOARD_VIA            (2450.1 910.0)   TOP/BOTTOM 
+  SAM_DA11             VIA_12               (2634.0 1205.7)  TOP/BOTTOM 
+  SAM_DA8              BOARD_VIA            (2440.1 1190.0)  TOP/BOTTOM 
+  SAM_DA8              VIA_12               (2602.5 1237.2)  TOP/BOTTOM 
+  PSM1V                BOARD_VIA            (1260.0 1265.0)  TOP/BOTTOM 
+  SAM_DA0              BOARD_VIA            (2440.1 1680.0)  TOP/BOTTOM 
+  SAM_DA0              VIA_12               (2602.5 1426.1)  TOP/BOTTOM 
+  SAM_DA13             VIA_12               (2697.0 1394.6)  TOP/BOTTOM 
+  SAM_NRST             BOARD_VIA            (1527.5 1158.0)  TOP/BOTTOM 
+  SAM_NRST             VIA_16               (1983.6 1063.5)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1646.3 181.3)   TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (320.0 415.0)    TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (338.1 471.9)    TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (336.0 531.0)    TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (421.0 349.0)    TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1630.0 360.0)   TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1938.3 381.7)   TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (2523.3 493.3)   TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (440.7 569.3)    TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1480.0 925.0)   TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1826.2 1095.0)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1260.0 1225.0)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1382.0 1251.0)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1637.3 1189.5)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1668.8 1189.5)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (269.1 1630.9)   TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1637.3 1504.3)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1561.0 1794.0)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1310.5 2060.5)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (1559.0 2159.0)  TOP/BOTTOM 
+  VCC_3V3              BOARD_VIA            (3248.3 493.3)   TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1731.8 1441.3)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2015.1 1189.5)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2015.1 1220.9)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2015.1 1283.9)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2078.0 1032.1)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2015.1 1063.5)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (2015.1 1095.0)  TOP/BOTTOM 
+  VCC_3V3              VIA_16               (1952.1 1095.0)  TOP/BOTTOM 
+  SAM_D14              BOARD_VIA            (2183.0 1820.0)  TOP/BOTTOM 
+  SAM_D14              VIA_16               (1920.6 1535.7)  TOP/BOTTOM 
+  SAM_D4               BOARD_VIA            (1395.0 741.0)   TOP/BOTTOM 
+  SAM_D4               BOARD_VIA            (1900.0 880.0)   TOP/BOTTOM 
+  SAM_D4               BOARD_VIA            (2183.0 1750.0)  TOP/BOTTOM 
+  SAM_D4               VIA_16               (1983.6 1472.8)  TOP/BOTTOM 
+  SAM_D7               BOARD_VIA            (2183.0 1610.0)  TOP/BOTTOM 
+  SAM_D7               VIA_16               (1952.1 1472.8)  TOP/BOTTOM 
+  SAM_D6               BOARD_VIA            (1534.0 742.0)   TOP/BOTTOM 
+  SAM_D6               BOARD_VIA            (2040.0 880.0)   TOP/BOTTOM 
+  SAM_D6               BOARD_VIA            (2182.0 1680.0)  TOP/BOTTOM 
+  SAM_D6               VIA_16               (1970.0 1550.0)  TOP/BOTTOM 
+  SAM_D10              VIA_16               (1920.6 1472.8)  TOP/BOTTOM 
+  SAM_D15              BOARD_VIA            (2182.0 1890.0)  TOP/BOTTOM 
+  SAM_D15              VIA_16               (1889.2 1472.8)  TOP/BOTTOM 
+  SAM_D12              VIA_16               (1952.1 1535.7)  TOP/BOTTOM 
+  SAM_D2               BOARD_VIA            (1254.0 741.0)   TOP/BOTTOM 
+  SAM_D2               BOARD_VIA            (1760.0 880.0)   TOP/BOTTOM 
+  SAM_D2               BOARD_VIA            (2181.0 1330.0)  TOP/BOTTOM 
+  SAM_D2               VIA_16               (2015.1 1472.8)  TOP/BOTTOM 
+  SAM_D8               BOARD_VIA            (2181.0 1190.0)  TOP/BOTTOM 
+  SAM_D8               VIA_16               (1952.1 1441.3)  TOP/BOTTOM 
+  SAM_D9               VIA_16               (1952.1 1504.3)  TOP/BOTTOM 
+  SAM_D0               BOARD_VIA            (2181.0 1260.0)  TOP/BOTTOM 
+  SAM_D0               VIA_16               (2015.1 1504.3)  TOP/BOTTOM 
+  SAM_D5               BOARD_VIA            (1464.0 743.0)   TOP/BOTTOM 
+  SAM_D5               BOARD_VIA            (1970.0 880.0)   TOP/BOTTOM 
+  SAM_D5               BOARD_VIA            (2182.0 1540.0)  TOP/BOTTOM 
+  SAM_D5               VIA_16               (1983.6 1504.3)  TOP/BOTTOM 
+  SAM_D11              VIA_16               (1920.6 1441.3)  TOP/BOTTOM 
+  SAM_LCDDAT0          BOARD_VIA            (278.5 1591.5)   TOP/BOTTOM 
+  SAM_LCDDAT0          VIA_16               (1605.8 1346.9)  TOP/BOTTOM 
+  SAM_D1               BOARD_VIA            (2185.0 1400.0)  TOP/BOTTOM 
+  SAM_D1               VIA_16               (2015.1 1535.7)  TOP/BOTTOM 
+  SAM_D13              BOARD_VIA            (2183.0 1960.0)  TOP/BOTTOM 
+  SAM_D13              VIA_16               (1920.6 1504.3)  TOP/BOTTOM 
+  SAM_D3               BOARD_VIA            (1324.0 741.0)   TOP/BOTTOM 
+  SAM_D3               BOARD_VIA            (1830.0 880.0)   TOP/BOTTOM 
+  SAM_D3               BOARD_VIA            (2179.0 1470.0)  TOP/BOTTOM 
+  SAM_D3               VIA_16               (1983.6 1441.3)  TOP/BOTTOM 
+  PXOUT32              VIA_16               (1637.3 1535.7)  TOP/BOTTOM 
+  PXIN32               VIA_16               (1668.8 1535.7)  TOP/BOTTOM 
+  SAM_LCDDAT3          BOARD_VIA            (297.6 1532.4)   TOP/BOTTOM 
+  SAM_LCDDAT3          VIA_16               (1570.0 1285.0)  TOP/BOTTOM 
+  SAM_LCDDAT10         BOARD_VIA            (278.0 1395.0)   TOP/BOTTOM 
+  SAM_LCDDAT10         VIA_16               (1574.4 1189.5)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (330.0 1115.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (253.7 1118.7)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (839.1 219.1)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (1879.2 30.8)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (1980.0 245.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1975.0 170.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1680.0 390.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1918.6 351.4)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1958.0 352.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (2548.6 473.6)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (3161.4 473.6)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (840.7 714.3)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (279.5 1000.5)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (870.0 1120.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1265.0 855.0)   TOP/BOTTOM 
+  GND                  VIA_16               (1731.8 1095.0)  TOP/BOTTOM 
+  GND                  VIA_16               (1763.2 1095.0)  TOP/BOTTOM 
+  GND                  VIA_16               (1920.6 1095.0)  TOP/BOTTOM 
+  GND                  VIA_16               (2078.0 1126.5)  TOP/BOTTOM 
+  GND                  VIA_16               (1983.6 1095.0)  TOP/BOTTOM 
+  GND                  VIA_16               (2046.6 1063.5)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (700.0 1180.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1245.0 1315.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1155.0 1365.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1385.0 1205.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1819.0 1358.0)  TOP/BOTTOM 
+  GND                  VIA_16               (1700.3 1441.3)  TOP/BOTTOM 
+  GND                  VIA_16               (1794.7 1441.3)  TOP/BOTTOM 
+  GND                  VIA_16               (1794.7 1283.9)  TOP/BOTTOM 
+  GND                  VIA_16               (1826.2 1283.9)  TOP/BOTTOM 
+  GND                  VIA_16               (1857.7 1283.9)  TOP/BOTTOM 
+  GND                  VIA_16               (1794.7 1252.4)  TOP/BOTTOM 
+  GND                  VIA_16               (1826.2 1252.4)  TOP/BOTTOM 
+  GND                  VIA_16               (1857.7 1252.4)  TOP/BOTTOM 
+  GND                  VIA_16               (2015.1 1315.4)  TOP/BOTTOM 
+  GND                  VIA_12               (2822.9 1174.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2759.9 1174.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2697.0 1174.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2571.0 1174.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2885.8 1174.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2885.8 1237.2)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (249.4 1650.6)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (250.0 1690.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (540.0 1460.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (540.0 1460.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (1324.8 1789.8)  TOP/BOTTOM 
+  GND                  VIA_16               (1605.8 1504.3)  TOP/BOTTOM 
+  GND                  VIA_12               (2854.4 1457.6)  TOP/BOTTOM 
+  GND                  VIA_12               (2791.4 1457.6)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1331.1 2021.1)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1321.0 2159.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1330.2 2080.2)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1444.0 2089.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1444.0 2089.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1394.2 2209.2)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (1559.9 2099.9)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (3377.0 2087.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (3372.0 2137.0)  TOP/BOTTOM 
+  GND                  BOARD_VIA            (330.0 1060.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (360.0 1060.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (390.0 1060.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (330.0 1015.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (360.0 1015.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (390.0 1015.0)   TOP/BOTTOM 
+  GND                  BOARD_VIA            (330.0 990.0)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (360.0 990.0)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (390.0 990.0)    TOP/BOTTOM 
+  GND                  BOARD_VIA            (415.0 1005.0)   TOP/BOTTOM 
+  VCC_5V               BOARD_VIA            (524.0 1281.0)   TOP/BOTTOM 
+  VCC_5V               BOARD_VIA            (940.0 1255.0)   TOP/BOTTOM 
+  VCC_5V               BOARD_VIA            (855.0 1505.0)   TOP/BOTTOM 
+  VCC_5V               BOARD_VIA            (900.0 1635.0)   TOP/BOTTOM 
+  SAM_SDWE             VIA_12               (2665.5 1394.6)  TOP/BOTTOM 
+  SAM_SDWE             VIA_16               (1889.2 1504.3)  TOP/BOTTOM 
+  SAM_SDWE             BOARD_VIA            (2635.0 1619.0)  TOP/BOTTOM 
+  SAM_CAS              VIA_12               (2665.5 1426.1)  TOP/BOTTOM 
+  SAM_CAS              VIA_16               (1826.2 1441.3)  TOP/BOTTOM 
+  SAM_RAS              VIA_12               (2665.5 1457.6)  TOP/BOTTOM 
+  SAM_RAS              VIA_16               (1826.2 1504.3)  TOP/BOTTOM 
+  SAM_SDCKE            VIA_12               (2665.5 1174.3)  TOP/BOTTOM 
+  SAM_SDCKE            BOARD_VIA            (3023.0 1191.0)  TOP/BOTTOM 
+  SAM_SDCK#            VIA_12               (2665.5 1237.2)  TOP/BOTTOM 
+  SAM_SDCK#            VIA_16               (1826.2 1535.7)  TOP/BOTTOM 
+  SAM_SDCK             VIA_16               (1889.2 1535.7)  TOP/BOTTOM 
+  SAM_SDCK             BOARD_VIA            (2598.0 1541.0)  TOP/BOTTOM 
+  SAM_SDCK             VIA_12               (2665.5 1205.7)  TOP/BOTTOM 
+  SAM_SDCS             BOARD_VIA            (2700.0 1280.0)  TOP/BOTTOM 
+  SAM_SDCS             VIA_12               (2634.0 1394.6)  TOP/BOTTOM 
+  SAM_SDCS             VIA_16               (1700.3 1472.8)  TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       1
+  Total dangling vias:      101
+  Total antenna vias:       356

@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CAPNP.dra                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Jan 29 15:23:42 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/Akash/Documents/SAM9_Board/Symbols
+    Name      = capnp.psm
+    User      = Akash
+    Machine   = DESKTOP-MS1CKCP
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+
